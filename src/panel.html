@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <title>Angular Test Recorder</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 10px; }
+    h1 { font-size: 16px; margin: 0 0 8px; }
+    #controls { margin-bottom: 8px; }
+    #controls button { margin-right: 6px; }
+    #controls label { margin-left: 8px; font-size: 12px; }
+    #stepsList { margin: 0; padding-left: 18px; }
+    #stepsList li { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; white-space: pre; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Angular Test Recorder</h1>
+  <div id="controls">
+    <button id="startBtn">Nagrywaj</button>
+    <button id="stopBtn" disabled>Zatrzymaj</button>
+    <button id="playBtn" style="margin-left:8px;">Odtwórz2s</button>
+    <button id="snapshotBtn">📸 Zrób screenshot</button>
+    <label> Tolerancja:
+      <input type="number" id="thresholdInput" value="0.1" min="0" max="1" step="0.01" style="width:4.2em">
+    </label>
+    <button id="exportBtn" style="margin-left:8px;">Eksport testu</button>
+  </div>
+  <ul id="stepsList"></ul>
+
+  <script src="panel.js"></script>
+</body>
+</html>

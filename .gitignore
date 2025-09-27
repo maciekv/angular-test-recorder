@@ -1,0 +1,23 @@
+# Node / build
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+dist/*.map
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Tests artifacts
+test-results/
+playwright-report/
+*.snap.png
+*.spec.ts.tmp
+
+# Optional: jeśli chcesz commitować dist, usuń tę linię:
+# dist/

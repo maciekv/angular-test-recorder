@@ -1,0 +1,1 @@
+chrome.devtools.panels.create("Angular Test Recorder","icon16.png","panel.html",function(e){});

@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Angular Test Recorder",
+  "version": "1.0",
+  "description": "DevTools panel to record interactions and generate Playwright tests (Angular 17+)",
+  "devtools_page": "devtools.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

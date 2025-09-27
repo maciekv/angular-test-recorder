@@ -1,0 +1,16 @@
+ 
+{
+  "name": "angular-tester",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",             
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.1",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}
